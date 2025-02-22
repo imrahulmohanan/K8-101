@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  DATABASE_URL: "mydatabase_url"
+  API_ENDPOINT: "https://api.example.com/v1"
